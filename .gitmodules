@@ -1,0 +1,4 @@
+[submodule "themes/Acrylic"]
+	path = themes/Acrylic
+	url = https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic-Next.git
+	branch = main
