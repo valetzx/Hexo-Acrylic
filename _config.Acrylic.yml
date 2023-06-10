@@ -1,7 +1,7 @@
 site:
   name:                   # 左上角显示内容
     class:  text          #i_class/text/img 
-    custom: Acrylic       #自定义内容
+    custom: Home       #自定义内容
   siteIcon: /img/avatar.webp # 网页icon
   icon: /img/avatar.webp     # 页脚的icon、加载动画默认的icon
   icp:                       # ICP
@@ -53,65 +53,65 @@ nav:
 hometop:
   bbtime: false
   banner:
-    enable: false
+    enable: true
     title: 分享设计<br>与科技生活
-    url: blog.zhheo.com
+    url: blog.learnonly.xyz
     icon:
-      # AE:
-      #   img: /img/icon/ae.png
-      #   color: '#989bf8'
-      # Sketch:
-      #   img: /img/icon/Sketch.png
-      #   color: '#ffffff'
-      # Docker:
-      #   img: /img/icon/docker.png
-      #   color: '#57b6e6'
-      # ps:
-      #   img: /img/icon/ps.png
-      #   color: '#4082c3'
-      # FinalCutPro:
-      #   img: /img/icon/FinalCutPro.png
-      #   color: '#ffffff'
-      # Python:
-      #   img: /img/icon/Python.png
-      #   color: '#ffffff'
-      # Swift:
-      #   img: /img/icon/Swift.png
-      #   color: '#eb6840'
-      # Principle:
-      #   img: /img/icon/Principle.png
-      #   color: '#8f55ba'
-      # illustrator:
-      #   img: /img/icon/illustrator.png
-      #   color: '#f29e39'
-      # CSS3:
-      #   img: /img/icon/CSS3.png
-      #   color: '#2c51db'
-      # JS:
-      #   img: /img/icon/JS.png
-      #   color: '#f7cb4f'
-      # Git:
-      #   img: /img/icon/git.png
-      #   color: '#df5b40'
+       AE:
+         img: /img/icon/ae.png
+         color: '#989bf8'
+       Sketch:
+         img: /img/icon/Sketch.png
+         color: '#ffffff'
+       Docker:
+         img: /img/icon/docker.png
+         color: '#57b6e6'
+       ps:
+         img: /img/icon/ps.png
+         color: '#4082c3'
+       FinalCutPro:
+         img: /img/icon/FinalCutPro.png
+         color: '#ffffff'
+       Python:
+         img: /img/icon/Python.png
+         color: '#ffffff'
+       Swift:
+         img: /img/icon/Swift.png
+         color: '#eb6840'
+       Principle:
+         img: /img/icon/Principle.png
+         color: '#8f55ba'
+       illustrator:
+         img: /img/icon/illustrator.png
+         color: '#f29e39'
+       CSS3:
+         img: /img/icon/CSS3.png
+         color: '#2c51db'
+       JS:
+         img: /img/icon/JS.png
+         color: '#f7cb4f'
+       Git:
+         img: /img/icon/git.png
+         color: '#df5b40'
 
   categoryGroup:
     G1:
-      name: Acrylic
-      icon: fas fa-dove
-      url: /tags/Acrylic/
-    G2:
-      name: 热门文章
-      icon: fas fa-burn
-      url: /tags/热门/
-    G3:
       name: 实用教程
-      icon: fas fa-book
+      icon: fas fa-dove
       url: /tags/教程/
+    G2:
+      name: 日常生活
+      icon: fas fa-burn
+      url: /tags/日常/
+    G3:
+      name: 白嫖分享
+      icon: fas fa-book
+      url: /tags/白嫖/
 
   recommendList:
     sup: 置顶文章
-    title: 让Acrylic成为您的Hexo主题
-    url: /
+    title: 在Docker中使用Rclone作为储存卷
+    url: /2022/08/12/021-dockervolumeplugin
     img: /img/acrylic.png
     color: '#006a73'
 
@@ -128,14 +128,14 @@ aside:
     Sticky: "newestPost,allInfo"
 
   card:
-    content: 这有关于<b>开发</b>、<b>技术</b>相关的问题和看法，还有对于动漫的一些<b>杂评</b>。<br>相信你可以在这里找到对你有用的知识和教程。
+    content: 这有关于<b>开发</b>、<b>室内设计</b>相关的问题和看法，还有对于游戏的一些<b>杂评</b>。<br>相信你可以在这里找到对你有用的知识和教程。
     information:
-      # Github:
-      #   icon: fa-brands fa-github
-      #   url: https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic-Next
-      # Mail:
-      #   icon: fa-solid fa-envelope
-      #   url: mailto:a@nalex.top
+       Github:
+         icon: fa-brands fa-github
+         url: https://github.com/valetzx
+       Mail:
+         icon: fa-solid fa-envelope
+         url: mailto:a@nalex.top
     button:
       text: 个人主页
       url: /
@@ -229,7 +229,7 @@ post:
     alipay:
     url:
   covercolor: #文章cover取色  
-    enable: false
+    enable: true
     local: false  
 
 # 关于界面
@@ -252,7 +252,7 @@ lightbox: true
 
 #代码高亮增强
 hightlight:
-  enable: false
+  enable: true
   hightlimit: 200
 
 # 加载动画
