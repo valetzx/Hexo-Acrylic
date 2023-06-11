@@ -213,7 +213,7 @@ page:
 post:
   default:
     cover: /img/hello.jpg
-    locate: 北京
+    locate: 江苏
     copyright: 原创
   meta:
     date: true
