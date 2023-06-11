@@ -230,7 +230,7 @@ post:
     url:
   covercolor: #文章cover取色  
     enable: true
-    local: false  
+    local: true
 
 # 关于界面
 about: false
@@ -238,7 +238,7 @@ about: false
 # 404页面
 errorpage:
   img: /img/acrylic.png
-  text: =awa= 页面走丢了
+  text: 页面走丢了
   recommendList: true
 
 # 懒加载
@@ -277,9 +277,9 @@ thirdparty:
       CDN:
     
   aplayer:
-    enable: false
+    enable: true
     server: tencent
-    id: 1708664797      
+    id: 8111304138
 
 # 评论
 comment:
