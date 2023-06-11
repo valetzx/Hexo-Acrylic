@@ -1,12 +1,16 @@
 ---
 title: 我的21年毕设
-date: 2022-02-25 17:24:12
-tags: [毕设,作业,设计]
-top_img: https://bing.icodeq.com/?9
-cover: https://bing.icodeq.com/
+tags:
+  - 毕设
+  - 作业
+  - 设计
+top_img: 'https://bing.icodeq.com/?9'
+cover: 'https://bing.icodeq.com/'
 swiper_index: 999
 swiper_desc: 这是我2021年的毕业设计，主题为 “魔术盒子”：将4米5 见方的盒子排列组合，形成建筑原始结构，并进行配套室内、外环境设计；
-swiper_cover: https://bing.icodeq.com/?2
+swiper_cover: 'https://bing.icodeq.com/?2'
+abbrlink: a5af
+date: 2022-02-25 17:24:12
 ---
 # 田籽格 — 耕 · 食体验馆
 

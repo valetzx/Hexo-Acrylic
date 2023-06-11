@@ -1,9 +1,14 @@
 ---
 title: 使用Replit白嫖3G MC 服务器
+tags:
+  - 教程
+  - Replit
+  - OneDrive
+  - 白嫖
+abbrlink: cb20
 date: 2022-04-19 10:15:22
-tags: [教程,Replit,OneDrive,白嫖]
-top_img: 
-cover: 
+top_img: 'https://bing.icodeq.com/?93'
+cover: 'https://bing.icodeq.com/?92'
 ---
 
 <p align="center"><body><iframe src="https://video-direct-link.vercel.app/bili.mp4?aid=340750421&bvid=BV1M94y1o72P&cid=578822737" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></body></p>

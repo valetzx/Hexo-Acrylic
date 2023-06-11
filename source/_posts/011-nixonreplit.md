@@ -1,9 +1,13 @@
 ---
 title: 在Replit中配置Nix环境
+tags:
+  - 教程
+  - Replit
+  - 白嫖
+abbrlink: '1849'
 date: 2022-04-20 12:15:22
-tags: [教程,Replit,白嫖]
-top_img: 
-cover: 
+top_img: 'https://bing.icodeq.com/?91'
+cover: 'https://bing.icodeq.com/?90'
 ---
 
 # 前言：

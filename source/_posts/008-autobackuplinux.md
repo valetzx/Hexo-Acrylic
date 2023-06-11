@@ -1,9 +1,14 @@
 ---
 title: 使用脚本定时备份SSH中任意文件至SSH或任意网盘
+tags:
+  - 教程
+  - 网盘
+  - OneDrive
+  - SSH
+abbrlink: a4f
 date: 2022-04-04 08:20:22
-tags: [教程,网盘,OneDrive,SSH]
-top_img: 
-cover: 
+top_img: 'https://bing.icodeq.com/?97'
+cover: 'https://bing.icodeq.com/?96'
 ---
 
 # 前言：

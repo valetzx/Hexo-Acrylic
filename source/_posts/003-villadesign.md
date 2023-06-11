@@ -1,12 +1,16 @@
 ---
 title: 课程作业-别墅设计
-date: 2022-02-24 16:24:00
-tags: [日常,作业,设计]
-top_img: https://gitlab.com/valetzx/pubfile/raw/main/img/computer/villa1.png
-cover: https://gitlab.com/valetzx/pubfile/raw/main/img/computer/villa1.png
+tags:
+  - 日常
+  - 作业
+  - 设计
+top_img: 'https://gitlab.com/valetzx/pubfile/raw/main/img/computer/villa1.png'
+cover: 'https://gitlab.com/valetzx/pubfile/raw/main/img/computer/villa1.png'
 swiper_index: 989
 swiper_desc: 大作业，两个联排打通改一户，要配置电梯。点击查看彩平等详细布置方案。
-swiper_cover: https://img.pighog.repl.co/2022/04/600kens.jpg
+swiper_cover: 'https://img.pighog.repl.co/2022/04/600kens.jpg'
+abbrlink: 13bd
+date: 2022-02-24 16:24:00
 ---
 
 # 大作业，两个联排打通改一户，要配置电梯。以下是彩平展示（当时一次接触彩平）。

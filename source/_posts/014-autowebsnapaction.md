@@ -1,9 +1,13 @@
 ---
 title: 使用GithubAction给任意网页截图
+tags:
+  - 教程
+  - GithubAction
+  - 白嫖
+top_img: 'https://bing.icodeq.com/?5'
+cover: 'https://bing.icodeq.com/?1'
+abbrlink: 799e
 date: 2022-05-08 08:15:08
-tags: [教程,GithubAction,白嫖]
-top_img:  https://bing.icodeq.com/?5
-cover: https://bing.icodeq.com/?1 
 ---
 
 # 前言：

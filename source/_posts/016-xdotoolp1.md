@@ -1,9 +1,12 @@
 ---
 title: 使用xdotool在Ubuntu自动化
+tags:
+  - 教程
+  - 白嫖
+top_img: 'https://bing.icodeq.com/?7'
+cover: 'https://bing.icodeq.com/?10'
+abbrlink: 15af
 date: 2022-06-06 16:16:16
-tags: [教程,白嫖]
-top_img:  https://bing.icodeq.com/?7
-cover: https://bing.icodeq.com/?10
 ---
 
 # 前言：

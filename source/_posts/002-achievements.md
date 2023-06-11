@@ -1,12 +1,15 @@
 ---
 title: 截止文章发表日期所获成就及奖项
-date: 2022-02-26 12:36:31
-tags: [日常,记录]
-top_img: https://img.pighog.repl.co/2022/03/psc1.jpg
-cover: 
+tags:
+  - 日常
+  - 记录
+top_img: 'https://img.pighog.repl.co/2022/03/psc1.jpg'
 swiper_index: 990
 swiper_desc: 2017-2021获奖情况
-swiper_cover: https://gitlab.com/valetzx/pubfile/raw/main/img/computer/star1.jpg
+swiper_cover: 'https://gitlab.com/valetzx/pubfile/raw/main/img/computer/star1.jpg'
+abbrlink: a95e
+date: 2022-02-26 12:36:31
+cover: 'https://gitlab.com/valetzx/pubfile/raw/main/img/computer/star1.jpg'
 ---
 
 ![087_2021-01-14_70B27B42](https://gitlab.com/valetzx/pubfile/raw/main/img/computer/087_2021-01-14_70B27B42.jpeg)

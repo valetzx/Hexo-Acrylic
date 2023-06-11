@@ -1,12 +1,15 @@
 ---
 title: 做完毕设后的假期
-date: 2022-03-08 14:03:12
-tags: [日常,流水账]
-top_img: https://gitlab.com/valetzx/img/raw/main/img/16_43_topim1.jpg
-cover: https://img.pighog.repl.co/2022/03/cover.jpg
+tags:
+  - 日常
+  - 流水账
+top_img: 'https://gitlab.com/valetzx/img/raw/main/img/16_43_topim1.jpg'
+cover: 'https://img.pighog.repl.co/2022/03/cover.jpg'
 swiper_index: 987
 swiper_desc: 2022
-swiper_cover: https://img.pighog.repl.co/2022/03/swiper.jpg
+swiper_cover: 'https://img.pighog.repl.co/2022/03/swiper.jpg'
+abbrlink: dc3a
+date: 2022-03-08 14:03:12
 ---
 
 # 家与我

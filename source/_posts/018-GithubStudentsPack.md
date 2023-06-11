@@ -1,9 +1,14 @@
 ---
 title: 白嫖Github学生包！
+tags:
+  - 教程
+  - 白嫖
+  - Github
+  - Azure
+top_img: 'https://bing.icodeq.com/?11'
+cover: 'https://bing.icodeq.com/?13'
+abbrlink: '98'
 date: 2022-06-28 22:18:24
-tags: [教程,白嫖,Github,Azure]
-top_img:  https://bing.icodeq.com/?11
-cover: https://bing.icodeq.com/?13
 ---
 
 # 前言：

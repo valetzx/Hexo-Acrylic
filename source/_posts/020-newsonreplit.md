@@ -1,9 +1,13 @@
 ---
 title: 在Replit部署每日新闻项目
+tags:
+  - 教程
+  - Replit
+  - 白嫖
+top_img: 'https://bing.icodeq.com/?15'
+cover: 'https://bing.icodeq.com/?16'
+abbrlink: '7e53'
 date: 2022-07-12 14:28:24
-tags: [教程,Replit,白嫖]
-top_img:  https://bing.icodeq.com/?15
-cover: https://bing.icodeq.com/?16 
 ---
 
 # 前言：

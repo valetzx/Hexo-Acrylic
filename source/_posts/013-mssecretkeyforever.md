@@ -1,9 +1,12 @@
 ---
 title: 使用Graph获取微软永久客户端秘钥
+tags:
+  - 教程
+  - 白嫖
+abbrlink: 34c
 date: 2022-04-30 23:15:22
-tags: [教程,白嫖]
-top_img: 
-cover: 
+top_img: 'https://bing.icodeq.com/?87'
+cover: 'https://bing.icodeq.com/?86'
 ---
 
 # 前言：

@@ -1,9 +1,16 @@
 ---
 title: 使用Typora写作并配置PicGo图床推荐
+tags:
+  - 教程
+  - GithubAction
+  - 图床
+  - 白嫖
+  - 网盘
+  - OneDrive
+top_img: 'https://img.pighog.repl.co/2022/03/psc3.jpg'
+cover: 'https://img.pighog.repl.co/2022/03/psc3.jpg'
+abbrlink: a8f2
 date: 2022-03-12 21:04:11
-tags: [教程,GithubAction,图床,白嫖,网盘,OneDrive]
-top_img: https://img.pighog.repl.co/2022/03/psc3.jpg
-cover: https://img.pighog.repl.co/2022/03/psc3.jpg
 ---
 # 前言：
 搭好博客需要开始写作了，如果你想在多个平台发布你的文章的话，一定少不了一个图床的使用。这里就不啰嗦图床是什么了（网上有一大堆Picgo+Github/Gitee之类的教程）这里总结一下我用的图床以及配置教程。

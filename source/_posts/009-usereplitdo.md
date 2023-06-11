@@ -1,9 +1,14 @@
 ---
 title: 使用Replit白嫖各种语言项目
+tags:
+  - 教程
+  - Replit
+  - OneDrive
+  - 白嫖
+abbrlink: aa4a
 date: 2022-04-17 09:15:22
-tags: [教程,Replit,OneDrive,白嫖]
-top_img: 
-cover: 
+top_img: 'https://bing.icodeq.com/?95'
+cover: 'https://bing.icodeq.com/?94'
 ---
 
 # 前言：

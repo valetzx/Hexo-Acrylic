@@ -1,9 +1,16 @@
 ---
 title: 使用ZeroTier居家办公
+tags:
+  - 教程
+  - ZeroTier
+  - 白嫖
+  - 网盘
+  - OneDrive
+  - Alist
+abbrlink: 439d
 date: 2022-03-22 22:22:22
-tags: [教程,ZeroTier,白嫖,网盘,OneDrive,Alist]
-top_img: 
-cover: 
+top_img: 'https://bing.icodeq.com/?99'
+cover: 'https://bing.icodeq.com/?98'
 ---
 
 # 前言：

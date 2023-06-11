@@ -1,9 +1,15 @@
 ---
 title: 使用GithubAction推送仓库至任意网盘
+tags:
+  - 教程
+  - GithubAction
+  - 自动部署
+  - 白嫖
+  - 网盘
+top_img: 'https://img.pighog.repl.co/2022/03/psc.jpg'
+cover: 'https://img.pighog.repl.co/2022/03/psc.jpg'
+abbrlink: a7fa
 date: 2022-03-10 09:12:34
-tags: [教程,GithubAction,自动部署,白嫖,网盘]
-top_img: https://img.pighog.repl.co/2022/03/psc.jpg
-cover: https://img.pighog.repl.co/2022/03/psc.jpg
 ---
 
 # 前言：

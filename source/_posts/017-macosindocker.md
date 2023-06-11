@@ -1,9 +1,13 @@
 ---
 title: 使用Docker运行Macos
+tags:
+  - 教程
+  - 白嫖
+  - Docker
+top_img: 'https://bing.icodeq.com/?9'
+cover: 'https://bing.icodeq.com/?12'
+abbrlink: '3412'
 date: 2022-06-10 08:16:16
-tags: [教程,白嫖,Docker]
-top_img:  https://bing.icodeq.com/?9
-cover: https://bing.icodeq.com/?12 
 ---
 
 # 前言：

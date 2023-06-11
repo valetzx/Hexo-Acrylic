@@ -1,9 +1,13 @@
 ---
 title: 在Replit中自建监控网站
+tags:
+  - 教程
+  - Replit
+  - 白嫖
+abbrlink: c99d
 date: 2022-04-22 23:15:22
-tags: [教程,Replit,白嫖]
-top_img: 
-cover: 
+top_img: 'https://bing.icodeq.com/?89'
+cover: 'https://bing.icodeq.com/?88'
 ---
 
 # 前言：

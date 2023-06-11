@@ -1,9 +1,14 @@
 ---
 title: 在Docker中使用Rclone作为储存卷
-date: 2022-08-12 13:0:24
-tags: [教程,白嫖,Docker,网盘]
-top_img:  https://bing.icodeq.com/?18
-cover: https://bing.icodeq.com/?17
+date: '2022-08-12 13:02:24'
+tags:
+  - 教程
+  - 白嫖
+  - Docker
+  - 网盘
+top_img: 'https://bing.icodeq.com/?18'
+cover: 'https://bing.icodeq.com/?17'
+abbrlink: 13d3
 ---
 
 # 前言：
