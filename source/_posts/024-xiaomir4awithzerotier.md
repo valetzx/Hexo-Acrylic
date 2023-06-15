@@ -49,7 +49,7 @@ PS: 网上有些固件似乎不支持ipv6，大家看情况下载，我正在使
 
 准备FTB连接工具或资源管理器，在资源管理器路径栏填入 `ftp://192.168.31.1/tmp/` 回车，将 **2022-R4A最新开ssh工具** 目录中的 `breed.bin` 复制到 **ftp://192.168.31.1/tmp/** 文件夹内，在telnet中输入 `md5sum /tmp/breed.bin` 比对输出的MD5值 **24e62762809c15ba3872e610a37451a3** 如果不一样，请重新上传文件！
 
-确认以上步骤！备份固件 **`all_backup.bin 16MB`** ！上传 **`breed.bin`** 均完成后！
+**确认以上步骤！备份固件 `all_backup.bin 16MB` ！上传 `breed.bin` 均完成后！**
 
 刷入breed！在telnet中输入 `mtd write /tmp/breed.bin Bootloader` 这一步完成后会断网，很快。需要用网线，将网线插入wan口（你原来光猫接到路由器的口，拔下来用连电脑的网线插进去）在浏览器中输入 192.168.1.1 ，如果能进入breed后台，就可以随便造了。
 
@@ -67,3 +67,41 @@ PS: 网上有些固件似乎不支持ipv6，大家看情况下载，我正在使
 
 ## 配置zerotier
 
+注册zerotier账号 - 新建network - 复制network id
+
+### 配置config
+
+config目录：`/etc/config/zerotier` 内容：
+
+```
+config zerotier sample_config
+        option enabled 0
+
+        # persistent configuration folder (for ZT controller mode)
+        #option config_path '/etc/zerotier'
+
+        #option port '9993'
+
+        # Generate secret on first start
+        option secret 'generate'
+
+        # Join a public network called Earth
+        list join '8056c2e21c000001'
+```
+我们需要改两处内容，`option enabled 0` 改 `1` 启用， `list join '8056c2e21c000001'` 中 `80xxxxx` 内容改为你的 `network id`
+
+改好保存后可以重启一次路由，如果你的zerotier network是私有的(Private)，需要在zerotier后台勾选上你的设备。
+
+### 配置网段
+
+在 **Interfaces** 接口中添加类似 **ztr2q3rmku** 这样的接口，并新建配置一个防火墙。
+
+在zerotier后台添加路由表：
+
+|  你设备的网段   | zerotier分配给设备的ip  |
+|  ----  | ----  |
+| 192.168.110.0/24  | 	172.22.11.22 |
+| 192.168.31.0/24  | 	172.22.11.22 |
+| 192.168.41.0/24  |  172.22.11.23 |
+
+以上表有两个 openwrt 设备，ip 分别是 **172.22.11.22** / **172.22.11.23** ，而 `172.22.11.22` 有两个网段，分别是 **192.168.110.0/24** / **192.168.31.0/24** 那我就可以通过另一个设备，连上zerotier后 直接访问 192.168.110.2，192.168.110.3 这样的设备，以及 192.168.31.1 这两个网段中的所有设备。
