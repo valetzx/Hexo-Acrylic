@@ -37,17 +37,17 @@ PS: 网上有些固件似乎不支持ipv6，大家看情况下载，我正在使
 
 # 开始：
 
-## 解锁ssh/telnet
+## **解锁** ssh/telnet
 
-解压 `2022-R4A最新开ssh工具.zip` 尝试管理员打开 `1.V2版开Telnet.bat` 如果没反应或直接退出，双击进入 `OpenWRTInvasion` 文件夹。`SHIFT+右键` -> `在此处打开 powershell 窗口` 输入 `.\python.exe .\remote_command_execution_vulnerability_v2.py` 回车运行等待完成后再次运行一遍指令即可开启 `telnet` 使用Windows自带的telnet或xshell等工具连接 `192.168.31.1` 用户名密码都为 `root`
+解压 **2022-R4A最新开ssh工具.zip** 尝试管理员打开 `1.V2版开Telnet.bat` 如果没反应或直接退出，双击进入 **OpenWRTInvasion** 文件夹。`SHIFT+右键` -> `在此处打开 powershell 窗口` 输入 `.\python.exe .\remote_command_execution_vulnerability_v2.py` 回车运行等待完成后再次运行一遍指令即可开启 **telnet** 使用Windows自带的telnet或xshell等工具连接 `192.168.31.1` 用户名密码都为 `root`
 
-### 备份原厂固件！重要！
+### **备份** 原厂固件！重要！
 
 登录telnet后，输入 `cat /proc/mtd&&dd if=/dev/mtd0 of=/tmp/all_backup.bin` 文件会存在tmp目录，可以用ftp工具取出（如果使用资源管理器，请右键 all_backup.bin -> 复制到文件夹，而不是用快捷键CTRL+C复制！），取出文件后确认文件大小为16M！如果非常小，建议重新复制文件！这个文件非常重要！后面恢复原厂固件需要用到！！！
 
-### 刷入breed（不死鸟）
+### **刷入** breed（不死鸟）
 
-准备FTB连接工具或资源管理器，在资源管理器路径栏填入 `ftp://192.168.31.1/tmp/` 回车，将 `2022-R4A最新开ssh工具` 目录中的 `breed.bin` 复制到 `ftp://192.168.31.1/tmp/` 文件夹内，在telnet中输入 `md5sum /tmp/breed.bin` 比对输出的MD5值 `24e62762809c15ba3872e610a37451a3` 如果不一样，请重新上传文件！
+准备FTB连接工具或资源管理器，在资源管理器路径栏填入 `ftp://192.168.31.1/tmp/` 回车，将 **2022-R4A最新开ssh工具** 目录中的 `breed.bin` 复制到 `ftp://192.168.31.1/tmp/` 文件夹内，在telnet中输入 `md5sum /tmp/breed.bin` 比对输出的MD5值 **24e62762809c15ba3872e610a37451a3** 如果不一样，请重新上传文件！
 
 确认以上步骤！备份固件 **all_backup.bin 16MB** ！上传 **breed.bin** 均完成后！
 
@@ -57,7 +57,7 @@ PS: 网上有些固件似乎不支持ipv6，大家看情况下载，我正在使
 
 ## 刷入固件
 
-在刷入openwrt前，我们先在固件备份中备份`编程器固`件以及`EEPROM`！然后点固件更新->常规固件，选择固件（你准备好的openwrt.bin固件或其他固件），选择你刚刚备份的`EEPROM`文件，这两个选好后，点上传，等待上传完成后会自动重启，在浏览器输入192.168.31.1等着就行。接下来的用户名和密码大概率为 `root/password` 如果不对，请询问固件作者。
+在刷入openwrt前，我们先在固件备份中备份 `编程器固件` 以及 `EEPROM`！然后点固件更新->常规固件，选择固件（你准备好的openwrt.bin固件或其他固件），选择你刚刚备份的**EEPROM**文件，这两个选好后，点上传，等待上传完成后会自动重启，在浏览器输入192.168.31.1等着就行。接下来的用户名和密码大概率为 `root/password` 如果不对，请询问固件作者。
 
 ## 刷回官方
 
