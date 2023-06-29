@@ -112,3 +112,9 @@ config zerotier sample_config
 # 结语：
 
 有很多地方都略过了，比如zerotier后台的一些操作，这些网上都有，我以前的文章页写过，这里就不多赘述了。如果后面有空，会再讲讲自构建你的openwrt，因为像这个小米路由器4a千兆版有很多ipk其实都不支持，需要自己编译。有问题可以到 Github 联系我。
+
+# 测试：
+
+看看图1 ![这是图片](https://message.biliimg.com/bfs/im/ff51474cde9f53d142e71052f4fcccfcc0f4c9ad.png)
+
+看看图2 ![这是图片](https://new-service.biliapi.net/picture/chatres/102d1b48515346ec8e9fb543b54ec454/msg/20230611/87a6448123534e04aa870c223c035b10.png)
